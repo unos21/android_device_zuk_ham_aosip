@@ -14,7 +14,7 @@
     "branch": "cpuquiet"
   },
   {
-    "repository": "MartinJesus23/proprietary_vendor_zuk",
+    "repository": "ankurpandeyvns/proprietary_vendor_zuk",
     "target_path": "vendor/zuk",
     "branch": "cm-14.1"
   }

@@ -101,10 +101,16 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     charger_res_images
 
+<<<<<<< HEAD
 # Filesystem
 PRODUCT_PACKAGES += \
     make_ext4fs \
     setup_fs
+=======
+#Doze
+PRODUCT_PACKAGES += \
+    HamDoze
+>>>>>>> 8f5a365... AmbientDisplay: Enable Ambient Display for Ham.
 
 # Fingerprint
 PRODUCT_PACKAGES += \
