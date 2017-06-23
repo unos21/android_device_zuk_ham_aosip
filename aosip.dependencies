@@ -1,0 +1,21 @@
+[
+  {
+    "repository": "device_qcom_common",
+    "target_path": "device/qcom/common"
+  },
+  {
+    "repository": "MartinJesus23/android_device_zuk_ham",
+    "target_path": "device/zuk/ham",
+    "branch": "cm-14.1"
+  },
+  {
+    "repository": "acuicultor/Radioactive-kernel-HAM",
+    "target_path": "kernel/cyanogen/msm8974",
+    "branch": "cpuquiet"
+  },
+  {
+    "repository": "MartinJesus23/proprietary_vendor_zuk",
+    "target_path": "vendor/zuk",
+    "branch": "cm-14.1"
+  }
+]
