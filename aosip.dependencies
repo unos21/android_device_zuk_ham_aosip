@@ -4,7 +4,7 @@
     "target_path": "device/qcom/common"
   },
   {
-    "repository": "MartinJesus23/android_device_zuk_ham",
+    "repository": "unos21/android_device_zuk_ham_aosip",
     "target_path": "device/zuk/ham",
     "branch": "cm-14.1"
   },
