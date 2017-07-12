@@ -59,7 +59,7 @@ TARGET_KERNEL_ADDITIONAL_CONFIG:= cyanogenmod_debug_config
 endif
 
 # QCOM
-BOARD_USES_QCOM_HARDWARE := true
+# BOARD_USES_QCOM_HARDWARE := true
 
 # Audio
 USE_CUSTOM_AUDIO_POLICY := 1
@@ -128,7 +128,7 @@ TARGET_NEEDS_PLATFORM_TEXT_RELOCATIONS := true
 TARGET_PROVIDES_LIBLIGHT := true
 
 # QCOM/CM HARDWARE
-BOARD_USES_QCOM_HARDWARE     := true
+# BOARD_USES_QCOM_HARDWARE     := true
 BOARD_USES_CYANOGEN_HARDWARE := true
 
 
@@ -213,15 +213,16 @@ TARGET_HW_DISK_ENCRYPTION := true
 PROTOBUF_SUPPORTED := true
 
 # ANT+ - TODO: Confirm this - TODO: Confirm this - TODO: Confirm this - TODO: Confirm this
-BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
+# BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
 
-ifeq ($(HOST_OS),linux)
-  ifeq ($(call match-word-in-list,$(TARGET_BUILD_VARIANT),user),true)
-    ifeq ($(WITH_DEXPREOPT),)
-      WITH_DEXPREOPT := true
-    endif
-  endif
-endif
+# ifeq ($(HOST_OS),linux)
+#   ifeq ($(call match-word-in-list,$(TARGET_BUILD_VARIANT),user),true)
+#     ifeq ($(WITH_DEXPREOPT),)
+#       WITH_DEXPREOPT := true
+#     endif
+#   endif
+# endif
+WITH_DEXPREOPT := false
 
 # inherit from the proprietary version
 ifneq ($(QCPATH),)
