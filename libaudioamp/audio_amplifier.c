@@ -17,7 +17,7 @@
 
 #include <time.h>
 #include <system/audio.h>
-#include <platform.h>
+#include <../../../../hardware/qcom/audio/hal/msm8974/platform.h>
 
 #include <stdio.h>
 #include <stdlib.h>
