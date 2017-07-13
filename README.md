@@ -1,1 +1,1 @@
-# device tree for pa-ham
+# device tree for AOSPA-ham
