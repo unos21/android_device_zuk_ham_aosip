@@ -1,2 +1,2 @@
 # device tree for AOSPA-ham
-Currently booting issue
+Booting issue when flashed with gapps
