@@ -140,7 +140,7 @@ PRODUCT_PACKAGES += \
     
 # Weather providers
 PRODUCT_PACKAGES += \
-     OpenWeatherMapProvider \
+     OpenWeatherMapWeatherProvider \
      YahooWeatherProvider \
      WundergroundWeatherProvider    
     
